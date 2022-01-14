@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Bootstrap</title>
+</head>
+<body>
+    <!--Todo el contenido-->
+<main class="container">
+
+    <!--Imagen de cabecera-->
+    <div class="row justify-content-center">
+        <img src="img/logo.png" alt="Logo es[Tech]" class="col-5 img-fluid">
+    </div>
+    <!--Menu de navegación-->
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-success mb-2">
+                    <!--Boton de la pantalla pequeña y mediana-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="#">Inicio</a>
+           </li>          
+         </ul>
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu Item 1</a>
+            </li>          
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu Item 2</a>
+            </li>       
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu Item 3</a>
+            </li>         
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu Item 4</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu Item 5</a>
+            </li>
+          </ul>
+       </div>
+     </nav>
+     
+    <!--Video e imagenes-->
+    <section class="row">
+        <div class="col-12 col-xl-6 mb-2">
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wgw94BoIlJA" allowfullscreen></iframe>
+            </div>
+        </div>
+           <!--<iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--> 
+        <article class="col-xl-6 mb-2">
+            <section class="row">
+                    <figure class="col-6 col-xl-6"><img src="img/img3.png" alt="Persona con un lapiz y una tablet" class="img-fluid"><figcaption class="text-center">Sistemas Infromaticos</figcaption></figure>
+                    <figure class="col-6 col-xl-6"><img src="img/img2.png" alt="Persona  escribiendo" class="img-fluid"><figcaption class="text-center">Bases de datos</figcaption></figure>
+            </section>
+            <section class="row">
+                    <figure class="col-6 col-xl-6"><img src="img/img1.png" alt="Ordenadores y movil" class="img-fluid"><figcaption class="text-center">Lenguaje de Marcas</figcaption></figure>
+                    <figure class="col-6 col-xl-6"><img src="img/php8.png" alt="Logo php8" class="img-fluid"><figcaption class="text-center">Programacion Backend</figcaption></figure>
+            </section>
+        </article>
+    </section>
+    
+    <!--Apartado de SECCION-->
+    <div class="bg-success">
+        <h1 class="pt-2 pb-2 text-white text-center text-uppercase display-4">seccion</h1>
+    </div>
+
+    <section class="row justify-content-center">
+        <figure class="col-9 col-xl-3"><img src="img/logo2.jpg" alt="Logo Estech" class="img-fluid"><figcaption class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut atque ab voluptates a eaque dolorem, delectus iusto perspiciatis natus sunt aperiam sit quisquam, exercitationem recusandae illum obcaecati soluta magni!</figcaption><p>VENDIDO</p></figure>
+        <figure class="col-9 col-xl-3"><img src="img/logo2.jpg" alt="Logo Estech" class="img-fluid"><figcaption class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem voluptate, fuga cum eius ipsum quas vero qui error rem voluptas laudantium quae repellat beatae veritatis vitae quisquam maiores? Sunt?</figcaption><p>VENDIDO</p></figure>
+        <figure class="col-9 col-xl-3"><img src="img/logo2.jpg" alt="Logo Estech" class="img-fluid"><figcaption class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias facere placeat doloremque consequuntur? Mollitia inventore quam accusamus fuga ad dolores nemo, assumenda aspernatur cupiditate fugiat provident sapiente ipsa unde voluptatum?</figcaption><p>VENDIDO</p></figure>
+    </section>
+
+    <!--Apartado de CONTACTO-->
+    <div class="bg-success">
+        <h1 class="pt-2 pb-2 text-white text-center text-uppercase display-4">contacto</h1>
+    </div>
+
+    <section class="row justify-content-md-center">
+        <form action="post" class="col-12 col-md-4">
+            <label for="nombre" class="mb-0 mt-1">Nombre:</label><input type="text" name="nombre" placeholder="nombre" id="nombre" class="col-md-12">
+            <label for="apellido" class="mb-0 mt-1">Apellido:</label><input type="text" name="apellido" placeholder="apellido" id="apellido" class="col-md-12">
+            <label for="coments" class="mb-0 mt-1">Comentarios:</label><textarea type="email" name="email" placeholder="Escriba aqui sus comentarios..." id="coments" class="col-md-12"></textarea>
+            <div class="col-md-12 justify-content-center"> 
+            <div class="row justify-content-end my-1">
+            <input type="submit" id="enviar" class="col-2 col-md-4  btn bg-success text-white">
+            </div>
+            </div>
+        </form>
+        <section class="col-12 col-md-4">
+            <div>
+                <h4 class="py-1 pl-1 my-1 text-white bg-success rounded">Contacta con nosotros</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet alias similique reprehenderit omnis iusto molestias velit.</p>
+            </div>
+        </section>
+    </section>
+</main>
+
+    <!--Pie de pagina-->
+    <footer class="bg-success container-md">
+        <div class="row">
+            <p class="col-xl-12 text-white text-center">Escuela Estech 2021</p>
+        </div>
+        <div class="row justify-content-center">
+            <img src="img/facebook.png" alt="Logo Facebook" class="col-2 col-xl-1 img-fluid">
+            <img src="img/twitter.png" alt="Logo Twitter" class="col-2 col-xl-1 img-fluid">
+            <img src="img/youtube.png" alt="Logo Youtube" class="col-2 col-xl-1 img-fluid">
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
